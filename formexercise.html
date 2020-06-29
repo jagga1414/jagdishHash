@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registration</title>
+</head>
+<body>
+	<h1>Registration form</h1>
+	<form>
+		<label>First Name:
+			<input type="test" placeholder="chetan" required>
+		</label>
+		<label>Last Name:
+			<input type="text" placeholder="Sharma" required>
+		</label>
+		<div>
+		<label>Male
+			<input type="radio" name="gender">
+		</label>
+		<label>Female
+			<input type="radio" name="gender">
+		</label>
+		<label>Other
+			<input type="radio" name="gender">
+		</label>
+	    </div>
+	    <div>
+		<label>Email:
+			<input type="email" name="email" placeholder="your mail" required>
+		</label>
+		<label>Password:
+			<input type="Password" name="Password" pattern=".{5,10}" required title="5 to 10 character">
+		</div>
+		<div>
+		</label>Birthday:
+		  <select name="month" >
+		  	<option>month</option>
+			<option>jan</option>
+			<option>feb</option>
+			<option>mar</option>
+			<option>apr</option>
+			<option>may</option>
+			<option>jun</option>
+			<option>jul</option>
+			<option>aug</option>
+			<option>sep</option>
+			<option>oct</option>
+			<option>nov</option>
+			<option>dec</option>
+		  </select>
+		  <select name="day">
+		  	<option>day</option>
+		  	<option>01</option>
+		  	<option>02</option>
+		  	<option>03</option>
+		  	<option>04</option>
+		  	<option>05</option>
+		  	<option>06</option>
+		  	<option>07</option>
+		  	<option>08</option>
+		  	<option>09</option>
+		  	<option>10</option>
+		  	<option>11</option>
+		  	<option>12</option>
+		  	<option>13</option>
+		  	<option>14</option>
+		  	<option>15</option>
+		  	<option>16</option>
+		  	<option>17</option>
+		  	<option>18</option>
+		  	<option>19</option>
+		  	<option>20</option>
+		  	<option>21</option>
+		  	<option>22</option>
+		  	<option>23</option>
+		  	<option>24</option>
+		  	<option>25</option>
+		  	<option>26</option>
+		  	<option>27</option>
+		  	<option>28</option>
+		  	<option>30</option>
+		  	<option>31</option>
+		  </select>
+		  <select name="year">
+		  	<option>year</option>
+		  	<option>1995</option>
+		  	<option>1996</option>
+		  	<option>1997</option>
+		  	<option>1998</option>
+		  	<option>1999</option>
+		  	<option></option>
+		  	<option></option>
+		  	<option></option>
+		  	<option></option>
+		  	<option></option>
+		  </select>
+		</label>
+	</div>
+	<div>
+		<label> agreed to the terms and conditions:
+		 <input type="checkbox" name="terms" required="required">
+	    </label>
+	</div>
+	<button>submit</button>
+	</form>
+
+</body>
+</html>
